@@ -8,7 +8,16 @@ function App() {
   return (
     <div>
     <div>Hello there!</div>
-    <div>hey hey</div>
+    <form>
+      <div>
+        <label>Search: </label>
+        <input id="search" type="text"/>
+      </div>
+      <div>
+        <label>Location: </label>
+        <input id="location" type="text"/>
+      </div>
+    </form>
 
     <FrontPage />
     </div>
